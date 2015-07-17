@@ -1,0 +1,10 @@
+body { text-align: center; }
+
+#divTabela { 
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+tr:nth-child(odd) { background-color:#eee; }
+tr:nth-child(even) { background-color:#fff; }
